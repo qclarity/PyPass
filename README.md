@@ -11,7 +11,7 @@ A simple password management app built using Python
 ![Screenshots](pypass_screenshots.png)
 
 > [!NOTE]
-> This program was built with the assistance of LLMs such as OpenAI's ChatGPT and Anthropic's Claude. However I fully understand the underlying logic and modules. The GUI design was designed solely by me. The specifics on where AI was utilized can be found below. Feel free to disagree with my use of AI and to offer recommendations for the program.
+> This program was built with the assistance of LLMs such as OpenAI's ChatGPT and Anthropic's Claude. However I fully understand the underlying logic and modules. The GUI was designed solely by me. The specifics on where AI was utilized can be found below. Feel free to disagree with my use of AI and to offer recommendations for the program.
 
 # AI Usage 🤖
 > *The program does not contain any directly copy-and-pasted code. I primarily used AI for module recommendations and architectural guidance.*
