@@ -7,8 +7,11 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 A simple password management app built using Python
+
+![Screenshots](pypass_screenshots.png)
+
 > [!NOTE]
-> This program was built with the assistance of LLMs such as OpenAI's ChatGPT and Anthropic's Claude. However I fully understand the underlying logic and modules. The specifics on where AI was utilized can be found below. Feel free to disagree with my use of AI and to offer recommendations for the program.
+> This program was built with the assistance of LLMs such as OpenAI's ChatGPT and Anthropic's Claude. However I fully understand the underlying logic and modules. The GUI design was designed solely by me. The specifics on where AI was utilized can be found below. Feel free to disagree with my use of AI and to offer recommendations for the program.
 
 # AI Usage 🤖
 > *The program does not contain any directly copy-and-pasted code. I primarily used AI for module recommendations and architectural guidance.*
@@ -72,8 +75,8 @@ On launch, if you see a sign-in page, you likely installed everything correctly 
 - Vault encryption using Fernet.
 - Argon2id key derivation.
 - PyPass can detect inactivity and automatically sign the user out. With a default inactivity timer of 5 minutes.
-- PyPass contains keybinds that allow the user to quickly open the program, get/add whatever information they wish, then immediately close it.
-- PyPass allows the user to copy passwords and automatically clears the users clipboard after 30 seconds. Even when the user closes the program.
+- PyPass includes keyboard shortcuts for quickly adding, viewing, and managing vault entries.
+- PyPass allows the user to copy passwords and automatically clears the user's clipboard after 30 seconds. Even when the user closes the program.
 - Local encrypted vault storage.
 
 # Default Keybinds ⚡
