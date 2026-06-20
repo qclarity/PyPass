@@ -6,7 +6,7 @@
 ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-PyPass is a simple password management app built using Python
+A simple password management app built using Python
 > [!NOTE]
 > This program was built with the assistance of LLMs such as OpenAI's ChatGPT and Anthropic's Claude. However I fully understand the underlying logic and modules. The specifics on where AI was utilized can be found below. Feel free to disagree with my use of AI and to offer recommendations for the program.
 
