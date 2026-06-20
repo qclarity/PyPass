@@ -36,7 +36,7 @@ PyPass was built primarily using:
 
 Before PyPass's development, I had an interest in how cybersecurity programs worked; I figured a password manager would be a good place to start. However I do not see myself developing any more cybersecurity-oriented programs in the near future.
 
-**How does it work? (conceptually assuming correct password and no errors)**
+**How does it work? (conceptually assuming correct password and no errors).**
 
     password attempt -> argon2 hash verification -> argon2id key derivation -> fernet decryption -> access decrypted data
 
@@ -51,12 +51,12 @@ Before PyPass's development, I had an interest in how cybersecurity programs wor
 > [!NOTE]
 > I do not intend to personally continue working on this project. The ideas below are just improvements I researched during development, but was too lazy to implement.
 - Add a hmac signature to the config.json file to detect file tampering.
-- Limit the flow of plaintext sensitive data throughout the program (with Python, I believe it is impossible to 100% limit this).
+- Limit the flow of plaintext sensitive data throughout the program. With Python, I believe it is impossible to 100% limit this.
 - A button that allows the user to wipe vault with verification.
 - Allow the user to sort entries alphabetically or by date.
 
 # Installation 🚀
-Assuming you're using Windows and have the Python standard library installed (I never tested PyPass on Linux)
+Assuming you're using Windows and have the Python standard library installed (I never tested PyPass on Linux.)
 ```bash
 git clone https://github.com/qclarity/PyPass.git
 cd PyPass
@@ -66,7 +66,7 @@ python main.py
 ```
 On launch, if you see a sign-in page, you likely installed everything correctly and are free to roam around PyPass's simple interface and feel the joy of securely saving password data on your own machine.
 
-# Features 👾
+# Features 🌟
 - Master password authentication using Argon2.
 - Vault encryption using Fernet.
 - Argon2id key derivation.
@@ -78,15 +78,8 @@ On launch, if you see a sign-in page, you likely installed everything correctly 
 # Default Keybinds ⚡
 > *The following keybinds are configurable via the constants.py file.*
 
-    Esc --This will close the currently opened window
-    Shift+A --This will open the 'Add data' window
-    Shift+D --This will delete the currently opened entry
-
-# Fun Facts 💯
-- Throughout ~90% of PyPass's development, it was originally called "Oblique." But I changed it after staring at a brick wall in school and thought "PyPass" looks much cleaner. I also realized naming a piece of software "Oblique" may not be the best idea because one of its definitons is: [not straightforward or obscure](https://www.merriam-webster.com/dictionary/oblique).
-- PyPass was developed with 3 different text editors: VSCode, NeoVim, and PyCharm (in that order).
-
-# Goodbye 👋
-I hope whoever is reading this has a wonderful day--and installs my software.
-
--- QClarity 
+| Action | Keybind |
+| ------------------ | ------------------- |
+| Open add data window     | Shift + A      |
+| Delete current entry      | Shift + D      |
+| Close current window | Esc
