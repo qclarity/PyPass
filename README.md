@@ -54,6 +54,7 @@ Before PyPass's development, I had an interest in how cybersecurity programs wor
 - Limit the flow of plaintext sensitive data throughout the program. With Python, I believe it is impossible to 100% limit this.
 - A button that allows the user to wipe vault with verification.
 - Allow the user to sort entries alphabetically or by date.
+- Deleted entry retrieval during the same session.
 
 # Installation 🚀
 Assuming you're using Windows and have the Python standard library installed (I never tested PyPass on Linux.)
